@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",//una vez que lo compile lo va a crear en esa carpeta
+        "rootDir": "./src", // aquí es donde va a encontrar los archivos
+        "lib": ["ESNext"],
+        "target": "ESNext",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "strict": false,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.test.ts"]
+}
